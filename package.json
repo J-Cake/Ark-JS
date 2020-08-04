@@ -1,0 +1,23 @@
+{
+    "name": "ark_compiler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/ark/ark.js",
+    "scripts": {
+        "test": "",
+        "build": "node ./bin/build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^3.9.7",
+        "yargs": "^15.4.1"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.27",
+        "@types/yargs": "^15.0.5",
+        "@types/jasmine": "^3.5.12",
+        "jasmine": "^3.6.1"
+    }
+}
